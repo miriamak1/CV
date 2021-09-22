@@ -1,0 +1,62 @@
+
+.banner{
+	width:600px;
+	height:350px;
+	margin:40px auto;
+	background-size:100% 100%;
+	-moz-animation:banner 20s alternate 0 infinite;
+    -webkit-animation:banner 20s alternate 0 infinite;
+    animation:banner 14s infinite;
+	animation-direction:alternate;
+}
+@keyframes banner{
+	0%,30%{
+		background-image:url("Multimedia/F1.jpg");
+		opacity:1;
+	}
+	31%,34%{
+		opacity:0.1;
+	}
+	35%,65%{
+		background-image:url("Multimedia/F2.png");
+		opacity:1;
+	}
+	66%,69%{
+		opacity:0.1;
+	}
+	70%,100%{
+		opacity:1;
+        background-image:url("Multimedia/F3.jpg");
+	}
+}
+#banner1{
+	height: 540px;
+	background-image: url(Multimedia/Feyes.jpg);
+	background-repeat: no-repeat; 
+	background-position: center ;
+	position: relative;
+}
+
+#leftBtn {
+	display: none;
+	position: absolute;
+	left: 50px;
+	height: 50px;
+	top:calc(50%);
+}
+#rightBtn {
+	display: none;
+	position: absolute;
+	height: 50px;
+	right: 50px;
+	top:calc(50%);
+}
+.header {
+    padding: 10px;
+    width: 900px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
